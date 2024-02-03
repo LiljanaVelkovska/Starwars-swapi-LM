@@ -1,3 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
+  font-family: sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+}
+
+.people {
+  display: grid;
+  place-items: center;
+}
+
+.starship {
+  display: grid;
+  place-items: center;
 }
